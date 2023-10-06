@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BkC/8cAUDvgz3hPSQPF1AVdNxXAkB1OFjeJ0sQq+bB9UDQ4/KpLyqy6On/IEOqK5RM9x05c/5qZurF6VC4v1Dg==",
+  "dgSpecHash": "6f1arDQiC2qmXE5o54Arc2GMm4nZY3zm0mdtfyY69YXbSnrIWDPAnDzcdTwhsDDT+Wl+ljerR8yx51Fab2atqA==",
   "success": true,
   "projectFilePath": "D:\\Github\\AddressBookApp\\AddressBook.Service\\AddressBook.Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\duhan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",

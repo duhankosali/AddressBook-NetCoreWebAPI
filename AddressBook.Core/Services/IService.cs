@@ -13,7 +13,7 @@ namespace AddressBook.Core.Services
         Task<IEnumerable<T>> GetAllAsync(); // get all
         IQueryable<T> Where(Expression<Func<T, bool>> predicate); // search
         Task<bool> AnyAsync(Expression<Func<T, bool>> predicate);
-        Task AddAsync(T entity); // add
+        Task<T> AddAsync(T entity); // add
         Task UpdateAsync(T entity);  // update
         Task DeleteAsync(T entity); // delete
     }

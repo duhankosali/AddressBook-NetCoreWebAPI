@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qBKkQ+fqP3vBoo2o8CqijcPhEJk6j8/9CEX+h078jV5AGUeerjkOj4S8QF+NeS2OWQvED+CxSAAyC5pxCCHzbA==",
+  "dgSpecHash": "Sgq2mYl9GC9bJ9nw0MwjZCxYApqyMgjW4KDYSC7gIQOkyfwXwce4tkN/eRFsyz4VwXAYZcAd7Ob4aXXDMHEHdw==",
   "success": true,
   "projectFilePath": "D:\\Github\\AddressBookApp\\AddressBook.API\\AddressBook.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\duhan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",

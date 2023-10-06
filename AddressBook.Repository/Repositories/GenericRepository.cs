@@ -34,7 +34,7 @@ namespace AddressBook.Repository.Repositories
             _dbSet.Remove(entity);
         }
 
-        public IQueryable<T> GetAll(Expression<Func<T, bool>> expression) //Queryable because : orderby vs.
+        public IQueryable<T> GetAll()
         {
             return _dbSet.AsNoTracking().AsQueryable(); 
         }
