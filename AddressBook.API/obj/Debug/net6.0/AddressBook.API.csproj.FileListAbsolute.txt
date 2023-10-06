@@ -31,3 +31,10 @@ D:\Github\AddressBookApp\AddressBook.API\obj\Debug\net6.0\refint\AddressBook.API
 D:\Github\AddressBookApp\AddressBook.API\obj\Debug\net6.0\AddressBook.API.pdb
 D:\Github\AddressBookApp\AddressBook.API\obj\Debug\net6.0\AddressBook.API.genruntimeconfig.cache
 D:\Github\AddressBookApp\AddressBook.API\obj\Debug\net6.0\ref\AddressBook.API.dll
+D:\Github\AddressBookApp\AddressBook.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Github\AddressBookApp\AddressBook.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Github\AddressBookApp\AddressBook.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Github\AddressBookApp\AddressBook.API\bin\Debug\net6.0\Npgsql.dll
+D:\Github\AddressBookApp\AddressBook.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Github\AddressBookApp\AddressBook.API\bin\Debug\net6.0\Humanizer.dll
+D:\Github\AddressBookApp\AddressBook.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

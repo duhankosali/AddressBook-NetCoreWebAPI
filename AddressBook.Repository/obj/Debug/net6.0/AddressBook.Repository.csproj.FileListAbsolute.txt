@@ -13,3 +13,5 @@ D:\Github\AddressBookApp\AddressBook.Repository\obj\Debug\net6.0\AddressBook.Rep
 D:\Github\AddressBookApp\AddressBook.Repository\obj\Debug\net6.0\refint\AddressBook.Repository.dll
 D:\Github\AddressBookApp\AddressBook.Repository\obj\Debug\net6.0\AddressBook.Repository.pdb
 D:\Github\AddressBookApp\AddressBook.Repository\obj\Debug\net6.0\ref\AddressBook.Repository.dll
+D:\Github\AddressBookApp\AddressBook.Repository\bin\Debug\net6.0\AddressBook.Repository.runtimeconfig.json
+D:\Github\AddressBookApp\AddressBook.Repository\obj\Debug\net6.0\AddressBook.Repository.genruntimeconfig.cache
