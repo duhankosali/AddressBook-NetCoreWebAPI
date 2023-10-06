@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AddressBook.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AddressBook.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AddressBook.Core.dll": {}
+        }
+      },
+      "AddressBook.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AddressBook.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AddressBook.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AddressBook.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AddressBook.Core/1.0.0": {
+      "type": "project",
+      "path": "../AddressBook.Core/AddressBook.Core.csproj",
+      "msbuildProject": "../AddressBook.Core/AddressBook.Core.csproj"
+    },
+    "AddressBook.Repository/1.0.0": {
+      "type": "project",
+      "path": "../AddressBook.Repository/AddressBook.Repository.csproj",
+      "msbuildProject": "../AddressBook.Repository/AddressBook.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AddressBook.Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\duhan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Github\\AddressBookApp\\AddressBook.Service\\AddressBook.Service.csproj",
+      "projectName": "AddressBook.Service",
+      "projectPath": "D:\\Github\\AddressBookApp\\AddressBook.Service\\AddressBook.Service.csproj",
+      "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
+      "outputPath": "D:\\Github\\AddressBookApp\\AddressBook.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Github\\AddressBookApp\\AddressBook.Repository\\AddressBook.Repository.csproj": {
+              "projectPath": "D:\\Github\\AddressBookApp\\AddressBook.Repository\\AddressBook.Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

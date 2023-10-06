@@ -1,0 +1,17 @@
+D:\Github\AddressBookApp\AddressBook.Service\bin\Debug\net6.0\AddressBook.Service.deps.json
+D:\Github\AddressBookApp\AddressBook.Service\bin\Debug\net6.0\AddressBook.Service.dll
+D:\Github\AddressBookApp\AddressBook.Service\bin\Debug\net6.0\AddressBook.Service.pdb
+D:\Github\AddressBookApp\AddressBook.Service\bin\Debug\net6.0\AddressBook.Core.dll
+D:\Github\AddressBookApp\AddressBook.Service\bin\Debug\net6.0\AddressBook.Repository.dll
+D:\Github\AddressBookApp\AddressBook.Service\bin\Debug\net6.0\AddressBook.Repository.pdb
+D:\Github\AddressBookApp\AddressBook.Service\bin\Debug\net6.0\AddressBook.Core.pdb
+D:\Github\AddressBookApp\AddressBook.Service\obj\Debug\net6.0\AddressBook.Service.csproj.AssemblyReference.cache
+D:\Github\AddressBookApp\AddressBook.Service\obj\Debug\net6.0\AddressBook.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\AddressBookApp\AddressBook.Service\obj\Debug\net6.0\AddressBook.Service.AssemblyInfoInputs.cache
+D:\Github\AddressBookApp\AddressBook.Service\obj\Debug\net6.0\AddressBook.Service.AssemblyInfo.cs
+D:\Github\AddressBookApp\AddressBook.Service\obj\Debug\net6.0\AddressBook.Service.csproj.CoreCompileInputs.cache
+D:\Github\AddressBookApp\AddressBook.Service\obj\Debug\net6.0\AddressBook.Service.csproj.CopyComplete
+D:\Github\AddressBookApp\AddressBook.Service\obj\Debug\net6.0\AddressBook.Service.dll
+D:\Github\AddressBookApp\AddressBook.Service\obj\Debug\net6.0\refint\AddressBook.Service.dll
+D:\Github\AddressBookApp\AddressBook.Service\obj\Debug\net6.0\AddressBook.Service.pdb
+D:\Github\AddressBookApp\AddressBook.Service\obj\Debug\net6.0\ref\AddressBook.Service.dll

@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Core", "Address
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Repository", "AddressBook.Repository\AddressBook.Repository.csproj", "{0A4E9CAD-3C5F-4D37-A893-D94288270AFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Service", "AddressBook.Service\AddressBook.Service.csproj", "{747B1E84-5272-4C61-A0F9-1582839FDBD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.API", "AddressBook.API\AddressBook.API.csproj", "{A4197BB3-DD10-43F5-9AB7-2B6E01C95128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Caching", "AddressBook.Caching\AddressBook.Caching.csproj", "{7EFE2003-021E-4CA4-AAE7-40165C83D166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{0A4E9CAD-3C5F-4D37-A893-D94288270AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A4E9CAD-3C5F-4D37-A893-D94288270AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A4E9CAD-3C5F-4D37-A893-D94288270AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747B1E84-5272-4C61-A0F9-1582839FDBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747B1E84-5272-4C61-A0F9-1582839FDBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747B1E84-5272-4C61-A0F9-1582839FDBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747B1E84-5272-4C61-A0F9-1582839FDBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4197BB3-DD10-43F5-9AB7-2B6E01C95128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4197BB3-DD10-43F5-9AB7-2B6E01C95128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4197BB3-DD10-43F5-9AB7-2B6E01C95128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4197BB3-DD10-43F5-9AB7-2B6E01C95128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFE2003-021E-4CA4-AAE7-40165C83D166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFE2003-021E-4CA4-AAE7-40165C83D166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFE2003-021E-4CA4-AAE7-40165C83D166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFE2003-021E-4CA4-AAE7-40165C83D166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

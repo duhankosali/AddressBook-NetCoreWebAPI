@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AddressBook.Service/1.0.0": {
+        "dependencies": {
+          "AddressBook.Repository": "1.0.0"
+        },
+        "runtime": {
+          "AddressBook.Service.dll": {}
+        }
+      },
+      "AddressBook.Core/1.0.0": {
+        "runtime": {
+          "AddressBook.Core.dll": {}
+        }
+      },
+      "AddressBook.Repository/1.0.0": {
+        "dependencies": {
+          "AddressBook.Core": "1.0.0"
+        },
+        "runtime": {
+          "AddressBook.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AddressBook.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AddressBook.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AddressBook.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

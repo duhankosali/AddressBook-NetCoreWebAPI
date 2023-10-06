@@ -1,0 +1,12 @@
+D:\Github\AddressBookApp\AddressBook.Core\bin\Debug\net6.0\AddressBook.Core.deps.json
+D:\Github\AddressBookApp\AddressBook.Core\bin\Debug\net6.0\AddressBook.Core.dll
+D:\Github\AddressBookApp\AddressBook.Core\bin\Debug\net6.0\AddressBook.Core.pdb
+D:\Github\AddressBookApp\AddressBook.Core\obj\Debug\net6.0\AddressBook.Core.csproj.AssemblyReference.cache
+D:\Github\AddressBookApp\AddressBook.Core\obj\Debug\net6.0\AddressBook.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\AddressBookApp\AddressBook.Core\obj\Debug\net6.0\AddressBook.Core.AssemblyInfoInputs.cache
+D:\Github\AddressBookApp\AddressBook.Core\obj\Debug\net6.0\AddressBook.Core.AssemblyInfo.cs
+D:\Github\AddressBookApp\AddressBook.Core\obj\Debug\net6.0\AddressBook.Core.csproj.CoreCompileInputs.cache
+D:\Github\AddressBookApp\AddressBook.Core\obj\Debug\net6.0\AddressBook.Core.dll
+D:\Github\AddressBookApp\AddressBook.Core\obj\Debug\net6.0\refint\AddressBook.Core.dll
+D:\Github\AddressBookApp\AddressBook.Core\obj\Debug\net6.0\AddressBook.Core.pdb
+D:\Github\AddressBookApp\AddressBook.Core\obj\Debug\net6.0\ref\AddressBook.Core.dll
