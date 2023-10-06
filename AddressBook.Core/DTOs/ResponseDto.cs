@@ -10,19 +10,21 @@ namespace AddressBook.Core.DTOs
     public class ResponseDto<T>
     {
         // response success ctors:
-        public static ResponseDto<T> Success(int statusCode, T data)
+        public static ResponseDto<T> Success(int statusCode, T data, string message)
         {
             return new ResponseDto<T>
             {
                 Data = data,
-                StatusCode = statusCode
+                StatusCode = statusCode,
+                Message = new List<string> { message }
             };
         }
-        public static ResponseDto<T> Success(int statusCode)
+        public static ResponseDto<T> Success(int statusCode, string message)
         {
             return new ResponseDto<T>
             {
-                StatusCode = statusCode
+                StatusCode = statusCode,
+                Message = new List<string> { message }
             };
         }
 
@@ -32,7 +34,7 @@ namespace AddressBook.Core.DTOs
             return new ResponseDto<T>
             {
                 StatusCode = statusCode,
-                Errors = errors
+                Message = errors
             };
         }
         public static ResponseDto<T> Fail(int statusCode, string error)
@@ -40,13 +42,13 @@ namespace AddressBook.Core.DTOs
             return new ResponseDto<T>
             {
                 StatusCode = statusCode,
-                Errors = new List<string> { error }
+                Message = new List<string> { error }
             };
         }
 
         // properties
         public T Data { get; set; } // data (nullable)
-        public List<String> Errors { get; set; } // errors
+        public List<String> Message { get; set; } // errors
         [JsonIgnore]
         public int StatusCode { get; set; }
     }

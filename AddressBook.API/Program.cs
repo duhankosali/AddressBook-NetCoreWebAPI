@@ -20,9 +20,12 @@ builder.Services.AddSwaggerGen();
 
 // Scoped
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
 
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
+
+builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+builder.Services.AddScoped<IContactService, ContactService>();
 // AddAutoMapper
 builder.Services.AddAutoMapper(typeof(MapProfile));
 

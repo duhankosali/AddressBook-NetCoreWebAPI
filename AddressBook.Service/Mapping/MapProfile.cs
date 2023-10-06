@@ -14,6 +14,7 @@ namespace AddressBook.Service.Mapping
         public MapProfile()
         {
             CreateMap<Contact, ContactDto>().ReverseMap();
+            CreateMap<Contact, UpdateContactDto>().ReverseMap();
         }
     }
 }
