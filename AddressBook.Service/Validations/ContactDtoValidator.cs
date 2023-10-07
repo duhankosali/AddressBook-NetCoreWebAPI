@@ -13,17 +13,17 @@ namespace AddressBook.Service.Validations
         public ContactDtoValidator()
         {
             RuleFor(c => c.Name)
-                .NotNull().WithMessage("{PropertyName} is required.")
-                .NotEmpty().WithMessage("{PropertyName} is required");
+                .NotNull().WithMessage("Name is required.")
+                .NotEmpty().WithMessage("Name is required");
 
             RuleFor(c => c.Address)
-                .NotNull().WithMessage("{PropertyAddress} is required")
-                .NotEmpty().WithMessage("{PropertyAddress} is required");
+                .NotNull().WithMessage("Address is required")
+                .NotEmpty().WithMessage("Address is required");
 
             RuleFor(c => c.Phone)
-                .NotNull().WithMessage("{PropertyPhone} is required.")
-                .NotEmpty().WithMessage("{PropertyPhone} is required.")
-                .Matches(@"^\d{10}$").WithMessage("{PropertyPhone} should be 10 digits long."); // just digit.
+                .NotNull().WithMessage("Phone is required.")
+                .NotEmpty().WithMessage("Phone is required.")
+                .Matches(@"^\d{10}$").WithMessage("Phone should be 10 digits long."); // just digit.
 
             RuleFor(c => c.Email)
                 .EmailAddress().WithMessage("Please enter a valid email.");
