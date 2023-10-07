@@ -1,4 +1,4 @@
-﻿using AddressBook.Core.DTOs;
+﻿using AddressBook.Core;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace AddressBook.Service.Validations
 {
-    public class ContactDtoValidator : AbstractValidator<ContactDto> // Fluent Validation 
+    public class UpdateContactDtoValidator : AbstractValidator<UpdateContactDto>
     {
-        public ContactDtoValidator()
+        public UpdateContactDtoValidator()
         {
             RuleFor(c => c.Name)
                 .NotNull().WithMessage("Name is required.")

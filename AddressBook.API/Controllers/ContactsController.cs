@@ -39,13 +39,31 @@ namespace AddressBook.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(ContactDto contactDto) // --> POST /api/contacts
         {
-            var contact = await _contactService.AddAsync(_autoMapper.Map<Contact>(contactDto)); // get data
+            bool nameControl = await _contactService.AnyAsync(x => x.Name == contactDto.Name);
+            if (nameControl)
+            {
+                return CreateActionResult(ResponseDto<ContactDto>.Fail(404, "There cannot be 2 contacts with the same name."));
+            }
+
+            await _contactService.AddAsync(_autoMapper.Map<Contact>(contactDto)); // get data
             return CreateActionResult(ResponseDto<ContactDto>.Success(201, contactDto, "New contact added.")); // 201 --> CREATED
         }
 
         [HttpPut]
         public async Task<IActionResult> Update(UpdateContactDto contactDto) // --> PUT /api/contacts
         {
+            bool nameControl = await _contactService.AnyAsync(x=>x.Name == contactDto.Name);
+            if(nameControl)
+            {
+                return CreateActionResult(ResponseDto<ContactDto>.Fail(404, "There cannot be 2 contacts with the same name."));
+            }
+
+            bool existsControl = await _contactService.AnyAsync(x=>x.Id == contactDto.Id);
+            if (!existsControl)
+            {
+                return CreateActionResult(ResponseDto<ContactDto>.Fail(404, "User not found."));
+            }
+
             await _contactService.UpdateAsync(_autoMapper.Map<Contact>(contactDto));
             return CreateActionResult(ResponseDto<UpdateContactDto>.Success(200, "Contact updated."));
         }
@@ -58,6 +76,7 @@ namespace AddressBook.API.Controllers
             {
                 return CreateActionResult(ResponseDto<ContactDto>.Fail(404, "User not found.")); 
             }
+
             await _contactService.DeleteAsync(contact);
             return CreateActionResult(ResponseDto<ContactDto>.Success(200, "Contact deleted."));
         }

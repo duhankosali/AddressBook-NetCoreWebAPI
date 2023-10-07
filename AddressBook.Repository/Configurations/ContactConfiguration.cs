@@ -22,7 +22,6 @@ namespace AddressBook.Repository.Configurations
             builder.Property(x => x.Address).IsRequired().HasMaxLength(250);
 
             builder.Property(x => x.Phone).IsRequired().HasMaxLength(10);
-            builder.HasIndex(x => x.Phone).IsUnique();
         }
     }
 }

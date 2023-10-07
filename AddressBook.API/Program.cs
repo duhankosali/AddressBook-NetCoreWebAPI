@@ -23,6 +23,7 @@ builder.Services.AddSwaggerGen();
 
 // AddFluentValidation
 builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<ContactDtoValidator>());
+builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<UpdateContactDtoValidator>());
 
 // AddScoped
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
