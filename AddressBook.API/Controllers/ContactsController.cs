@@ -13,7 +13,7 @@ namespace AddressBook.API.Controllers
     {
         // dependency injection
         private readonly IMapper _autoMapper; // automapper
-        private readonly IContactService _contactService;
+        private readonly IContactService _contactService; // custom service
         public ContactsController(IMapper autoMapper, IContactService contactService)
         {
             _autoMapper = autoMapper;

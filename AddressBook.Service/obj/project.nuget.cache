@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "6f1arDQiC2qmXE5o54Arc2GMm4nZY3zm0mdtfyY69YXbSnrIWDPAnDzcdTwhsDDT+Wl+ljerR8yx51Fab2atqA==",
+  "dgSpecHash": "PqWRK+TC9JI9tc6d7xXHXwiaS4qTTA9/GXN2eeHrfH7ZOUmH9io/hDKuss/K1gaX42Z41WjqFw0FR82VCfJMog==",
   "success": true,
   "projectFilePath": "D:\\Github\\AddressBookApp\\AddressBook.Service\\AddressBook.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duhan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
