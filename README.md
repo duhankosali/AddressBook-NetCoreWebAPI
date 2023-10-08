@@ -1,6 +1,6 @@
 # To run the source code of my project:
 
-This project utilizes PostgreSQL as its database. Before you can start the project, you need to set the database connection string. You can do this by following the steps below:
+This project utilizes PostgreSQL as its database. Before you can open the your IDE, you need to set the database connection string. You can do this by following the steps below:
 
 ## For Windows
 
