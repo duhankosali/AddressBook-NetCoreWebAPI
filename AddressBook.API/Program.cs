@@ -16,7 +16,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Configure Services:
 builder.Services.AddControllers();
-
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -37,27 +36,36 @@ builder.Services.AddScoped<IContactService, ContactService>();
 // AddAutoMapper
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
+if (Environment.GetEnvironmentVariable("DOCKER_ENVIRONMENT") == "Docker") // for docker and aws 
+{
+    builder.WebHost.ConfigureKestrel(serverOptions =>
+    {
+        serverOptions.ListenAnyIP(80);
+    });
+}
+
 // AddDbContext
+string connectionString = Environment.GetEnvironmentVariable("POSTGRESQL_CONNECTION_STRING"); // Open CMD --> setx POSTGRESQL_CONNECTION_STRING "YOUR_CONNECTION_STRING" (for windows)
+                                                                                             // Open Console --> export POSTGRESQL_CONNECTION_STRING="YOUR_CONNECTION_STRING" (for linux and mac)
 builder.Services.AddDbContext<AppDbContext>(x =>
 {
-    x.UseNpgsql(builder.Configuration.GetConnectionString("SqlConnection"), option =>
+    x.UseNpgsql(connectionString, option =>
     {
         option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name); // get project name --> 'AddressBook.Repository'
     });
 });
 
 
+// ---------------------------
+
 // Middlewares:
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Swagger UI is on in both Production and Development modes
+app.UseSwagger();
+app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection(); --> HTTPS 'i engellemek için.
 
 app.UseAuthorization();
 
